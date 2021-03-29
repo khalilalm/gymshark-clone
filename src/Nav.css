@@ -1,0 +1,71 @@
+.nav-info {
+  background-color: rgb(226, 226, 226);
+}
+.nav-info-content {
+  font-size: 15px;
+  display: inline-flex;
+  list-style: none;
+}
+.nav-info-content > li {
+  font: 1em sans-serif;
+  padding: 20px;
+}
+
+.nav {
+  display: inline-flex;
+  list-style: none;
+}
+ul {
+  margin: 0px auto 0;
+  padding: 0;
+  list-style: none;
+  display: table;
+  width: 600px;
+  text-align: center;
+}
+li {
+  display: table-cell;
+  position: relative;
+  padding: 15px 0;
+}
+a {
+  color: black;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.15em;
+  display: inline-block;
+  padding:  20px;
+  position: relative;
+}
+a:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: black;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+a:hover:after {
+  width: 100%;
+  left: 0;
+}
+/* Image Classes */
+.logo {
+  float: left;
+  position: relative;
+  margin: 10px 15px 15px 10px;
+  width: 200px;
+  height: 20px;
+}
+.profile-img {
+  width: 20px;
+  height: 20px;
+}
+.us-logo {
+  width: 20px;
+  height: 20px;
+}

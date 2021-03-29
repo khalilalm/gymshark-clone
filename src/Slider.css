@@ -1,0 +1,24 @@
+.slide-img {
+  height: 25px;
+}
+.slider-img > span {
+  font-size: 10px;
+}
+.hero {
+  background: url("https://cdn.shopify.com/s/files/1/0156/6146/files/GYMSHARK66_IT_SPEED_DUAL_GENDER_WEB_BANNER_3800x1700_LK.jpg?v=1611134166");
+  background-size: cover;
+  background-position: center;
+  height: 800px;
+}
+.hero-text {
+  padding-top: 550px;
+}
+.h-buttons {
+  display: inline-flex;
+}
+.hero-button {
+  border-radius: 35px;
+  margin: 20px;
+  text-decoration: none;
+  background: white;
+}

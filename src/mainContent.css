@@ -1,0 +1,20 @@
+.home-workout-section{
+    margin-top:20px;
+    background: url("https://cdn.shopify.com/s/files/1/0156/6146/files/Amended_Banner_3Artboard_17_fb2a3d54-cf4b-4d9b-b067-fbca9254cac8_1900x.jpg?v=1610552584");
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+}
+.gymshark-description{
+    margin-top:20px;
+    padding: 30px;
+}
+.description{
+    border: .5px solid grey;
+    padding: 20px
+}
+
+/*Image Classes*/
+.hw-img{
+
+}
