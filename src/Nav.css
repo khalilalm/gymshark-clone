@@ -2,9 +2,8 @@
   background-color: rgb(226, 226, 226);
 }
 .nav-info-content {
-  font-size: 15px;
-  display: inline-flex;
-  list-style: none;
+ display:flex;
+ flex-direction: row;
 }
 .nav-info-content > li {
   font: 1em sans-serif;
